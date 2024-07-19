@@ -55,13 +55,15 @@ The paper **"MICA-Net: A Multimodal Cross-Attention Network for Human Action Rec
 ### 4.3. Validation
 We evaluate the results of the models by parameters: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, T-SNE Graph. These results will also be displayed immediately after you finish training the model
 
-<p align="center">
+<div align="center">
+  
 |   Datasets   |   Accuracy(%)   |   Precision(%)   |   Recall(%)    |   F1-Score(%)   |
 |   :---:   |   :---:   | :---: | :---: | :---: |
 | UTD-MHAD | 92.10   |  93.33  | 92.18   |  92.22  |
 | UESTC-MMEA-CL | 99.22   | 99.28   | 99.28    | 99.37    |
 | MuWiGes | 98.98  | 99.00   | 98.92    | 99.16   |
-</p>
+
+</div>
 
 ## 5. Running on NVIDIA Jetson AGX Xavier
 <p align="center">
