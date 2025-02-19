@@ -2,7 +2,9 @@
 
 This repository contains code and instructions for using MICA-Net, a new multimodal action recognition framework that combines data from multiple sensors to enhance human action recognition. Deploy MICA-Net model on NVIDIA Jetson AGX Xavier edge device, and test on a human-machine interactive system with home device control application.
 
-![alt text](https://github.com/drkhanusa/MICA-Net/blob/main/images/Overview.JPG)
+<p align="center">
+  <img src="https://github.com/drkhanusa/MICA-Net/blob/main/images/Overview.JPG"/>
+</p>
 
 ## 🔍 1. Overview
 
@@ -76,7 +78,9 @@ We evaluate the results of the models by parameters: Accuracy, Precision, Recall
 2. **📂 Transfer Code**: Transfer the MICA-Net code to the Jetson AGX Xavier
 
 ### 🚀 5.2 Inference on Jetson AGX Xavier
-![alt text](https://github.com/drkhanusa/MICA-Net/blob/main/images/TensorRT.JPG)
+<p align="center">
+  <img src="https://github.com/drkhanusa/MICA-Net/blob/main/images/TensorRT.JPG"/>
+</p>
 1. **🔄 Convert PyTorch model into .ONNX model**:
    ```bash
    python convertPytorch2onnx.py
