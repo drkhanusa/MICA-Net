@@ -78,9 +78,11 @@ We evaluate the results of the models by parameters: Accuracy, Precision, Recall
 2. **📂 Transfer Code**: Transfer the MICA-Net code to the Jetson AGX Xavier
 
 ### 🚀 5.2 Inference on Jetson AGX Xavier
+
 <p align="center">
   <img src="https://github.com/drkhanusa/MICA-Net/blob/main/images/TensorRT.JPG"/>
 </p>
+
 1. **🔄 Convert PyTorch model into .ONNX model**:
    ```bash
    python convertPytorch2onnx.py
